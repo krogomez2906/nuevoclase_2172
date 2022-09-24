@@ -1,82 +1,73 @@
+* {
+    background-color: rgb(234, 234, 182);
 
-<style>
-*{
-    background-color: #e3cf60;  
-    
 }
 
 @font-face {
     font-family: LittleLordFontleroyNF;
-    src: url("font/primera/LittleLordFontleroyNF.ttf");
+    src: url("font/LittleLordFontleroyNF/LittleLordFontleroyNF.ttf");
 }
-p{
+
+p {
     background-color: aqua;
-    color:  #ffa10b;
+    color: deeppink;
     font-size: 30px;
-}  
-
-
-td{
-    background: #ffa10b;
-    width: 100px;
-    height: 100px; 
-    border-radius: 10px;
-    
-     
-}
-.fondolila{
-    background: rgb(167, 72, 167);
-    font-size: 10px;
-}
-
-#cuatro{
-    
-    background: rgb(116, 210, 21);
-}
-#cinco{
-    background: rgb(116, 210, 21)
-}
-#seis{
-    background: #ffa10b;
-    border-left: 5px solid #ba0b4e;
 
 }
 
-.titulo{
+
+td {
+    background-color: #d156c3;
+    width: 50px;
+    height: 50px;
+}
+
+td {
+    background: green;
+}
+
+.titulo {
     font-size: 15px;
     font-family: LittleLordFontleroyNF;
-
 }
 
-.textoCentrado{
+.textoCentrado {
     text-align: center;
     font-size: 30px;
 }
 
-thead tr td{
-    background:  #6c4b15;
-    width: 100px;
-    height: 100px;  
-    
+.fondoVerde {
+    background: rgb(65, 233, 132);
+    font-size: 10px;
 }
 
-@media only screen and (max-width:700px){
+#cuatro {
+    background: chartreuse;
 
-    p{
-        background-color: rgb(244, 244, 8);
-       
+}
+
+#cinco {
+    background: chartreuse;
+}
+
+#seis {
+    background: rgb(23, 143, 154);
+    border-left: 5px solid red;
+}
+
+thead tr td {
+    background-color: #14649a;
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width:700px) {
+
+    p {
+        background-color: rgb(255, 255, 0);
+    
     }
 
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-</style>
